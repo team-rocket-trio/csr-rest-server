@@ -10,7 +10,7 @@ import javax.ws.rs.core.Response;
  * Created by Kate on 25.01.2017.
  */
 
-@Path("/hello")
+@Path("/")
 public class Main {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
